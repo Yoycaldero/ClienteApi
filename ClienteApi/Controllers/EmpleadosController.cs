@@ -95,7 +95,7 @@ namespace ClienteApi.Controllers
 
             return CreatedAtAction("GetEmpleados", new { id = empleados.Id }, empleados);
         }
-
+        //delete
         // DELETE: api/Empleados/5
         [HttpDelete("{id}")]
         public async Task<IActionResult> DeleteEmpleados(int id)
